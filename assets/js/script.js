@@ -44,3 +44,35 @@ function calculateGrade() {
     }
 }
 
+
+function showMessage() {
+    const dayInput = document.getElementById('dayInput');
+    const result = document.getElementById('result4');
+    const day = dayInput.value.trim().toLowerCase();
+
+    switch (day) {
+        case 'monday':
+            result.textContent = 'Someone has a case of the Mondays!';
+            break;
+        case 'tuesday':
+            result.textContent = 'It\'s Tuesday, you can do this!';
+            break;
+        case 'wednesday':
+            result.textContent = 'Halfway through the week, it\'s Humpday!';
+            break;
+        case 'thursday':
+            result.textContent = 'Almost Friday!';
+            break;
+        case 'friday':
+            result.textContent = 'TGIF! WOOT WOOT';
+            break;
+        case 'saturday':
+            result.textContent = 'Saturday\'s are for sleeping in!';
+            break;
+        case 'sunday':
+            result.textContent = 'Sunday morning, rain is falling . .';
+            break;
+        default:
+            result.textContent = 'Please enter a valid day of the week.';
+    }
+}
