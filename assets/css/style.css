@@ -1,4 +1,17 @@
 #result {
     font-size: 24px;
     font-weight: bold;
+    color: chartreuse;
+}
+
+#result2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#result3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
 }

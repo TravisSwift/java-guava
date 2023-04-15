@@ -24,7 +24,7 @@ function checkEvenOdd() {
     } else {
         result.textContent = number + ' is odd.';
     }
-}
+};
 
 function calculateGrade() {
     const scoreInput = document.getElementById('scoreInput');
@@ -43,3 +43,4 @@ function calculateGrade() {
         result.textContent = 'Grade F! You have failed your family!';
     }
 }
+
