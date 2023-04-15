@@ -7,5 +7,6 @@ var myVar = 42;
 console.log('The function has been called, and the value of myVar is:', myVar);
 }
 
+
 exampleFunction();
   
