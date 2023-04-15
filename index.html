@@ -54,19 +54,41 @@
         
 </div>
 
+<!-- -->
 <div>
     <h1>3: Control Structures and Loops</h1>
     <p>Conditional statements (if, else, else if)
         Conditional statements allow you to execute specific code blocks based on certain conditions. The basic structure of an if statement is:</p>
-    <p>if (condition) {
-        // Code to execute if the condition is true
-      }</p>
+    <p>if (condition) {</p>
+        <p>// Code to execute if the condition is true</p>
+      <p>}</p> 
+      <p>You can also use else to specify a code block that should be executed if the condition is false:</p>
+      <p>if (condition) {
+       <p>// Code to execute if the condition is true</p> 
+      <p>}if (condition) {</p>
+       <p>// Code to execute if the condition is true</p> 
+      <p>} else {</p>
+       <p>// Code to execute if the condition is false</p> 
+      <p>}</p>
+      <!-- Working example of an if else statement -->
       <p>Example:  In this example, we'll check if a number is even or odd and display the result in the document.</p>
     
       <h2>Even or Odd Checker</h2>
       <input id="numberInput" type="number" placeholder="Enter A Number">
       <button onclick="checkEvenOdd()">Check</button>
       <p id="result"></p>
+
+      <p>This is an exemple of an if else statement with multiple conditions.</p>
+
+    <h2>Grade Calculator</h2>
+    <input id="scoreInput" type="number" placeholder="Enter the score (0-100)">
+    <button onclick="calculateGrade()">Calculate Grade</button>
+    <p id="result2"></p>
+
+    <p>Switch statement</p>
+    <p>A switch statement allows you to execute different code blocks based on the value of a variable or expression. </p>
+    <p>In this example, we'll display a message based on the day of the week.</p>
+
     </div>
 
 <!-- Link to javascript file-->

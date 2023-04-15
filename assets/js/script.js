@@ -25,3 +25,21 @@ function checkEvenOdd() {
         result.textContent = number + ' is odd.';
     }
 }
+
+function calculateGrade() {
+    const scoreInput = document.getElementById('scoreInput');
+    const result = document.getElementById('result2');
+    const score = parseInt(scoreInput.value, 10);
+
+    if (score >= 90) {
+        result.textContent = 'Grade: A';
+    }   else if (score >= 80) {
+        result.textContent = 'Grade: B';
+    }   else if (score >= 70) {
+        result.textContent = 'Grade C';
+    }   else if (score >= 60) {
+        result.textContent = 'Grade D';
+    } else if (score >= 50) {
+        result.textContent = 'Grade F! You have failed your family!';
+    }
+}
