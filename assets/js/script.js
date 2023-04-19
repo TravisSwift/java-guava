@@ -79,3 +79,15 @@ function showMessage() {
             result.textContent = 'Please enter a valid day of the week.';
     }
 }
+
+function generateRandomNumbers() {
+    const numberList = document.getElementById('numberList');
+    numberList.innerHTML = '';
+
+    for (let i = 0; i < 10; i++) {
+        const randomNumber = Math.floor(Math.random() * 100) + 1;
+        const listItem = document.createElement('li');
+        listItem.textContent = randomNumber;
+        numberList.appendChild(listItem);
+    }
+}
