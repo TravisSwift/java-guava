@@ -1,6 +1,8 @@
 # java-guava
 JavaScript practice
 
+This project can be viewed at a live page here: https://travisswift.github.io/java-guava/
+
 ## I asked ChatGTP-4 to create a cirriculim to teach me javascript. This repo is me following the AI instruction to see how well it can teach me. 
 
 

@@ -1,20 +1,20 @@
-/* Example of a console log  */
+/* Example of a console log saying "Hello World!"  */
 console.log('Hello World!');
 
-/* A javascript function viewable in devtools */
+/* A javascript function viewable in devtools showing a numerical value */
 function exampleFunction() {
 var myVar = 42;
 console.log('The function has been called, and the value of myVar is:', myVar);
 }
 
 
-exampleFunction();
-  
+// exampleFunction();
 
-var name = "John";
-let age = 30;
-const pi = 3.14159
+// var name = "John";
+// let age = 30;
+// const pi = 3.14159
 
+/* JS Function using an if else statement to determine if a number is odd or even */
 function checkEvenOdd() {
     const numberInput = document.getElementById('numberInput');
     const result = document.getElementById('result');
@@ -26,6 +26,8 @@ function checkEvenOdd() {
     }
 };
 
+
+/* JS Function using multiple if else statements to calculate a letter grade from a numerical value */
 function calculateGrade() {
     const scoreInput = document.getElementById('scoreInput');
     const result = document.getElementById('result2');
@@ -45,6 +47,7 @@ function calculateGrade() {
 }
 
 
+/* A JS function using a switch statement to give a different message for each day of the week */
 function showMessage() {
     const dayInput = document.getElementById('dayInput');
     const result = document.getElementById('result4');
