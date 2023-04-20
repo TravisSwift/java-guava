@@ -91,3 +91,16 @@ function generateRandomNumbers() {
         numberList.appendChild(listItem);
     }
 }
+
+function printOddNumbers() {
+    const oddNumberList = document.getElementById('oddNumberList');
+    oddNumberList.innerHTML = '';
+
+    let i = 1;
+    do {
+        const listItem = document.createElement('li');
+        listItem.textContent = i;
+        oddNumberList.appendChild(listItem);
+        i += 2;
+    } while (i <= 19);
+}
