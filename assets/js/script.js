@@ -104,3 +104,8 @@ function printOddNumbers() {
         i += 2;
     } while (i <= 19);
 }
+
+function reset() {
+    const oddNumberList = document.getElementById('oddNumberList');
+    oddNumberList.innerHTML = '';
+}
