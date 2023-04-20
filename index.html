@@ -10,24 +10,36 @@
 <body>
     <!-- Page Header -->
     <div class="section">
-    <h1>JavaScript Practice Page</h1>
-  <br>
-    <h2>What is JavaScript?
-    <p>JavaScript is a high-level, dynamic, and interpreted programming language.</h2>
-    </div>
+ </div>
+ <div class="section">   
+ <h1 class="title">I asked ChatGTP-4 to create a cirriculim to teach me javascript. This repo is me following the AI instruction to see how well it can teach me. </h1>
+    <p> You can view the AI generated syllabus here: <a href="">ChatGTP-4 JavaScript Tutorial</a> </p>
+</div>
+   
+   <div>
+    <h1 class="pageTitle">JavaScript Practice Page</h1>
+   </div>
     <div class="section">
-    These are examples of Variables and constants    
+    <h2 class="title">What is JavaScript?</h2>
+    <p class="title">JavaScript is a high-level, dynamic, and interpreted programming language.</h2>
+    </div>
+    
+    
+    <div class="section">
+    <h2 class="title">These are examples of Variables and Constants </h2>   
        <p>var name = "John";</p>
         <p>let age = 30;</p>
         <p>const pi = 3.14159</p>
 </div>
 
 <div class="section">
-    <h2>Console Log</h2>
+    <h2 class="title">Console Log</h2>
+
     <p>Console Log - Look in DevTools to see these two examples of javascript functions, "Hello World!" and the value of 42</p> 
     <p>console.log('Hello, World!');</p>
-   
-    <h2>An example of a basic JavaScript Function</h2>
+   <br>
+    <h2 class="title">An example of a basic JavaScript Function</h2>
+
 <p>function exampleFunction() { </p>
    <p>var myVar = 42;</p> 
     <p>console.log('The function has been called, and the value of myVar is:', myVar);</p>
@@ -35,18 +47,22 @@
   
   exampleFunction();</p>
 </div>
-<div class="section"><h1>Data types:</h1>
+<div class="section">
+    <h1 class="title">Data types:</h1>
     <p>These are types of data types:</p>
-    <p>string</p>
-    <p>Number</p>
-    <p>Boolean</p>
-    <p>Null</p>
-    <p>Undefined</p>
-    <p>Object</p>
+    <ul>
+        <li>string</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Null</li>
+        <li>Undefined</li>
+        <li>Object</li>
+    </ul>
+
 </div>
 
 <div class="section">
-    <h1>Basic operators</h1>
+    <h1 class="title">Basic operators</h1>
     <p>JavaScript supports various operators that allow you to manipulate and compare data:
 
         <p>Arithmetic operators: +, -, *, /, %, **, ++, --</p>
@@ -55,7 +71,7 @@
         <p>Assignment operators: =, +=, -= , *=, /=, %=, **=</p>
 
         <p>Examples</p>
-        <p>Arithmetic Operators </p>
+        <p>Arithmetic Operators </p> 
         <p>let a = 10;</p>
             <p>let b = 5;</p>
            <p>let sum = a + b; // 15</p> 
@@ -66,8 +82,8 @@
 
             <p>let isEqual = a === b; // false</p>
             <p>let isGreater = a > b; // true</p>
-
-            <h1>Operator precedence and associativity</h1>
+            <br>
+            <h1 class="title">Operator precedence and associativity</h1>
 
             <p>Operator precedence determines the order in which operators are evaluated in an expression. Operators with higher precedence are evaluated before those with lower precedence. </p>
             <p>Associativity determines the order in which operators of the same precedence are evaluated, either from left to right (left-associative) or right to left (right-associative).</p>
@@ -78,13 +94,16 @@
 <!-- -->
 <div class="section">
     <div> 
-    <h1>3: Control Structures and Loops</h1>
+    <h1 class="title">3: Control Structures and Loops</h1>
     <p>Conditional statements (if, else, else if)
         Conditional statements allow you to execute specific code blocks based on certain conditions. The basic structure of an if statement is:</p>
-    <p>if (condition) {</p>
+    <br>
+        <p>if (condition) {</p>
         <p>// Code to execute if the condition is true</p>
       <p>}</p> 
+      <br>
       <p>You can also use else to specify a code block that should be executed if the condition is false:</p>
+      <br>
       <p>if (condition) {
        <p>// Code to execute if the condition is true</p> 
       <p>}if (condition) {</p>
@@ -93,40 +112,60 @@
        <p>// Code to execute if the condition is false</p> 
       <p>}</p>
       <!-- Working example of an if else statement -->
-      <p>Example:  In this example of an if else statement, we'll check if a number is even or odd and display the result in the document.</p>
-    
-      <h2>Even or Odd Checker</h2>
+      <br>
+      </div>
+      <div> 
+    <!-- <div>
+      <p>In this example of an if else statement, we'll check if a number is even or odd and display the result in the document.</p>
+      <p>Enter any number into the form field below. "IF" the number is even it will give a "number is even" result, "ELSE" if it is odd, it will give an "number is odd" result.</p>
+      <h2 class="title">Even or Odd Checker</h2>
       <input id="numberInput" type="number" placeholder="Enter A Number">
       <button onclick="checkEvenOdd()">Check</button>
       <p id="result"></p>
+      </div> -->
 </div>
-<div class="section">
-      <p>A Grade Calculator is an exemple of an if else statement with multiple conditions.</p>
+<div>
+    <div class="section">
+    <p>In this example of an if else statement, we'll check if a number is even or odd and display the result in the document.</p>
+    <p>Enter any number into the form field below. "IF" the number is even it will give a "number is even" result, "ELSE" if it is odd, it will give an "number is odd" result.</p>
+    <h2 class="title">Even or Odd Checker</h2>
+    <input id="numberInput" type="number" placeholder="Enter A Number">
+    <button onclick="checkEvenOdd()">Check</button>
+    <p id="result"></p>
+    </div>
 
-    <h2>Grade Calculator</h2>
+    <div class="section">
+      <p>A Grade Calculator is an exemple of an if else statement with multiple conditions.</p>
+      
+    <h2 class="title">Grade Calculator</h2>
     <input id="scoreInput" type="number" placeholder="Enter the score (0-100)">
     <button onclick="calculateGrade()">Calculate Grade</button>
     <p id="result2"></p>
     </div>
-    <h1>Switch statement</h1>
+
+    <div class="section">
+    <h1 class="title">Switch statement</h1>
     <p>A switch statement allows you to execute different code blocks based on the value of a variable or expression. </p>
     <p>In this example, we'll display a message based on the day of the week.</p>
 
-    <h1>Day of the Week Message</h1>
+    <h1 class="title">Day of the Week Message</h1>
     <input id="dayInput" type="text" placeholder="Enter the day of the week">
     <button onclick="showMessage()">Show Message</button>
     <p id="result4"></p>
+    </div>
 </div>
 <div class="section">
-    <h1>Loops (for, while, do-while)</h1>
+    <h1 class="title">Loops (for, while, do-while)</h1>
+
     <div>
-    <p>Loops allow you to execute a block of code repeatedly.  There are three main types of loops in JavaScript:</p>
+    <p>Loops allow you to execute a block of code repeatedly.</p> <br>
+    <p> There are three main types of loops in JavaScript:</p><br>
 
-        <p>for: Executes a code block a specific number of times.</p>
-        <p>while: Executes a code block as long as a condition remains true.</p>
-        <p>do-while: Executes a code block at least once, and then continues executing as long as a condition remains true.</p>
+        <p><b>for:</b> Executes a code block a specific number of times.</p>
+        <p><b>while:</b> Executes a code block as long as a condition remains true.</p>
+        <p><b>do-while:</b> Executes a code block at least once, and then continues executing as long as a condition remains true.</p>
     </div>
-
+<br>
     <div class="section">
     <h1>For Loop</h1>
     <p>This example uses a For Loop to randomly display numbers between 1 and 10.</p>
@@ -140,7 +179,7 @@
         <button onclick="printOddNumbers()">Print Odd Numbers</button>   <button onclick="reset()">reset</button>
         <ul id="oddNumberList"></ul>
     </div>
-
+</div>
 </div>
 
 
