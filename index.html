@@ -12,8 +12,8 @@
     <div class="section">
  </div>
  <div class="section">   
- <h1 class="title">I asked ChatGTP-4 to create a cirriculim to teach me javascript. This repo is me following the AI instruction to see how well it can teach me. </h1>
-    <p> You can view the AI generated syllabus here: <a href="">ChatGTP-4 JavaScript Tutorial</a> </p>
+ <h1 class="title">I asked ChatGTP-4 to create a curriculum to teach me javascript. This repo is me following the AI instruction to see how well it can teach me. </h1>
+    <p> You can view the AI generated syllabus here: <a href="./assets/docs/chatgtpjavascript.pdf" target="_blank">ChatGTP-4 JavaScript Tutorial</a> </p>
 </div>
    
    <div>
@@ -64,24 +64,27 @@
 <div class="section">
     <h1 class="title">Basic operators</h1>
     <p>JavaScript supports various operators that allow you to manipulate and compare data:
-
-        <p>Arithmetic operators: +, -, *, /, %, **, ++, --</p>
-        <p>Comparison operators: ==, ===, !=, !==, <, >, <=, >=</p>
-        <p>Logical operators: &&, ||, !</p>
-        <p>Assignment operators: =, +=, -= , *=, /=, %=, **=</p>
-
-        <p>Examples</p>
-        <p>Arithmetic Operators </p> 
-        <p>let a = 10;</p>
-            <p>let b = 5;</p>
-           <p>let sum = a + b; // 15</p> 
-           <p>let difference = a - b; // 5</p>
-           <p>let product = a * b; // 50</p>
-           <p>let quotient = a / b; // 2</p>
-           <p>let remainder = a % b; // 0</p>
-
-            <p>let isEqual = a === b; // false</p>
-            <p>let isGreater = a > b; // true</p>
+    
+        <ul>
+            <li>Arithmetic operators: +, -, *, /, %, **, ++, --</li>
+            <li>Comparison operators: ==, ===, !=, !==, <, >, <=, >=</li>
+            <li>Logical operators: &&, ||, !</li>
+            <li>Assignment operators: =, +=, -= , *=, /=, %=, **=</li>
+        </ul>
+<br>
+        <p>Examples: Arithmetic Operators </p> 
+        <br>
+        <ul>
+            <li>let a = 10;</li>
+            <li>let b = 5;</li>
+            <li>let sum = a + b; // 15</li>
+            <li>let difference = a - b; // 5</li>
+            <li>let product = a * b; // 50</li>
+            <li>let quotient = a / b; // 2</li>
+            <li>let remainder = a % b; // 0</li>
+            <li>let isEqual = a === b; // false</li>
+            <li>let isGreater = a > b; // true</li>
+        </ul>
             <br>
             <h1 class="title">Operator precedence and associativity</h1>
 
@@ -113,17 +116,8 @@
       <p>}</p>
       <!-- Working example of an if else statement -->
       <br>
-      </div>
-      <div> 
-    <!-- <div>
-      <p>In this example of an if else statement, we'll check if a number is even or odd and display the result in the document.</p>
-      <p>Enter any number into the form field below. "IF" the number is even it will give a "number is even" result, "ELSE" if it is odd, it will give an "number is odd" result.</p>
-      <h2 class="title">Even or Odd Checker</h2>
-      <input id="numberInput" type="number" placeholder="Enter A Number">
-      <button onclick="checkEvenOdd()">Check</button>
-      <p id="result"></p>
-      </div> -->
-</div>
+    </div>
+
 <div>
     <div class="section">
     <p>In this example of an if else statement, we'll check if a number is even or odd and display the result in the document.</p>
@@ -154,7 +148,7 @@
     <p id="result4"></p>
     </div>
 </div>
-<div class="section">
+
     <h1 class="title">Loops (for, while, do-while)</h1>
 
     <div>
@@ -173,16 +167,38 @@
     <ul id="numberList"></ul>
     </div>
 
+           <div class="section">
+            <h1>while Loop</h1>
+            <p>This is an example of a while loop that displays the Fibonacci sequence up to a user-specified number of terms.</p>
+            <input id="userInput" type="number" placeholder="Enter a number">
+            <button onclick="displayFibonacci()">Display Fibonacci Sequence</button>
+            <p id="result5"></p>
+        </div>
+
     <div class="section">
-        <h1>do while loop</h1>
+        <h1>Loops (for, while, do-while)</h1>
         <p>This example uses a do-while loop to print the odd numbers within 1 through 19 in an unordered list when the button is clicked.</p>
         <button onclick="printOddNumbers()">Print Odd Numbers</button>   <button onclick="reset()">reset</button>
         <ul id="oddNumberList"></ul>
+    </div>    <h1 class="title">Session 4: Functions and Scope</h1>
+
+    <div>
+    <p>Functions are blocks of code that can be defined and called by name. They can also accept input (parameters) and return values.</p>
+    <p>Functions help make your code more modular, reusable, and organized.</p><br>
+    
+        <p><b>Here's a simple function that adds two numbers together:</b></p>
+            <br>
+            <p>function add(a, b) {</p>
+            <p>return a + b;</p>  
+            <p>}</p> 
+            <p>const sum = add(3, 5);</p>
+            <p>console.log(sum); // Output: 8</p>
+            </div>
+
+        <p><b>while:</b> Executes a code block as long as a condition remains true.</p>
+        <p><b>do-while:</b> Executes a code block at least once, and then continues executing as long as a condition remains true.</p>
     </div>
 </div>
-</div>
-
-
 
 
 <!-- Link to javascript file-->

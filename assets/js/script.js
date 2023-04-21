@@ -92,6 +92,34 @@ function generateRandomNumbers() {
     }
 }
 
+function displayFibonacci() {
+
+
+    const userInput = document.getElementById('userInput');
+    const result = document.getElementById('result5');
+    const terms = parseInt(userInput.value);
+
+    if (isNaN(terms) || terms < 1) {
+        result.textContent = 'Please enter a number 1 or greater.';
+        return;
+    }
+
+    let firstTerm = 0;
+    let secondTerm = 1;
+    let count = 0;
+    let fibonacciSequence = '';
+
+    while (count < terms) {
+        fibonacciSequence += firstTerm + ', ';
+        const nextTerm = firstTerm + secondTerm;
+        firstTerm = secondTerm;
+        secondTerm = nextTerm;
+        count++;
+    }
+
+    result.textContent = `The first ${terms} Fibonacci terms are: ${fibonacciSequence.slice(0, -2)}.`;
+}
+
 function printOddNumbers() {
     const oddNumberList = document.getElementById('oddNumberList');
     oddNumberList.innerHTML = '';
