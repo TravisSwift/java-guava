@@ -137,3 +137,10 @@ function reset() {
     const oddNumberList = document.getElementById('oddNumberList');
     oddNumberList.innerHTML = '';
 }
+
+function add(a, b) {
+    return a + b;
+  }
+  
+  const sum = add(3, 5);
+  console.log(sum); // Output: 8
